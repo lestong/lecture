@@ -1,0 +1,68 @@
+<div class="bjui-pageHeader">
+    <form id="pagerForm" data-toggle="ajaxsearch" action="__SELF__" method="post">
+        <input type="hidden" name="pageSize" value="">
+        <input type="hidden" name="pageCurrent" value="">
+        <input type="hidden" name="orderField" value="">
+        <input type="hidden" name="orderDirection" value="">
+        <div class="bjui-searchBar">
+            <select name="searchtype" data-toggle="selectpicker">
+                <option value="0" selected="">{:L('title')}</option>
+            </select>&nbsp;
+            <input type="text" id="keyword" value="{$keyword}" name="keyword" class="form-control" size="10">&nbsp;
+            <button type="submit" class="btn-default" data-icon="search">{:L('btn_search')}</button>&nbsp;
+            <a class="btn btn-orange" href="javascript:;" data-toggle="reloadsearch" data-clear-query="true" data-icon="undo">{:L('btn_reload_search')}</a>
+            <div class="pull-right">
+                <button type="button" class="btn-green" data-url="{:U('Basis/add')}" data-toggle="navtab" data-id="Basis_edit">{:L('add')}</button>&nbsp;
+                <button type="button" class="btn-red" data-url="{:U('Basis/delete')}" data-toggle="doajaxchecked" data-confirm-msg="{:L('msg_confirm_delete')}" data-idname="ids" data-group="ids">{:L('del_checked')}</a></button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="bjui-pageContent tableContent">
+    <table data-toggle="tablefixed" data-width="100%" data-nowrap="true">
+        <thead>
+            <tr>
+                <th width="26"><input type="checkbox" class="checkboxCtrl" data-group="ids" data-toggle="icheck"></th>
+                <th width="50" data-order-field="id">ID</th>
+                <th>{:L('title')}</th>
+                <th width="120" >链接</th>
+                <th width="120" >序号</th>
+                <th align="center" width="120">{:L('manage')}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <foreach name="page_list" item="item" >
+            <tr data-id="{$item.id}">
+                <td>{$item.id}</td>
+                <td><a href="{:U('Basis/view?id='.$item['id'])}" data-toggle="navtab" data-id="Basis_view" data-title="{$item.title}">{$item.title}</a></td>
+                <td>{:D('Admin/BasisCategory')->getName($item['sort1'])} - {:D('Admin/BasisCategory')->getName($item['sort2'])}</td>
+                <td>{$item.classid|getClassName}</td>
+                <td align="center">{$item.create_time|date="Y-m-d",###}</td>
+                <td><input type="checkbox" name="ids" data-toggle="icheck" value="{$item.id}"></td>
+                <td align="center">
+                    <notempty name="item.edit_enable">
+                    <a class="btn btn-green" href="{:U('Basis/edit?id='.$item['id'])}" data-toggle="navtab" data-id="Basis_edit" data-title="{$item.title}"><span>{:L('edit')}</span></a>
+                    <a class="btn btn-red" href="{:U('Basis/delete?ids='.$item['id'])}" data-toggle="doajax" data-confirm-msg="{:L('msg_confirm_delete')}"><span>{:L('delete')}</span></a>
+                    </notempty>
+                </td>
+            </tr>
+            </foreach>
+            
+        </tbody>
+    </table>
+</div>
+<div class="bjui-pageFooter">
+    <div class="pages">
+        <span>{:L('pagination_per_page')}&nbsp;</span>
+        <div class="selectPagesize">
+            <select data-toggle="selectpicker" data-toggle-change="changepagesize">
+                <option value="30" <eq name="page.pageSize" value="30">selected</eq>>30</option>
+                <option value="60" <eq name="page.pageSize" value="30">selected</eq>>60</option>
+                <option value="120" <eq name="page.pageSize" value="30">selected</eq>>120</option>
+                <option value="150" <eq name="page.pageSize" value="30">selected</eq>>150</option>
+            </select>
+        </div>
+        <span>&nbsp;{:L('pagination_count_desc', array('totalCount' => $page['totalCount']))}</span>
+    </div>
+    <div class="pagination-box" data-toggle="pagination" data-total="{$page.totalCount}" data-page-size="{$page.pageSize}" data-page-current="{$page.pageCurrent}"></div>
+</div>

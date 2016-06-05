@@ -1,0 +1,543 @@
+[ 2016-06-05T13:49:27+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2016-06-05T13:49:42+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-06-05T13:49:59+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0002s ]
+SQL: INSERT INTO `db_admin_times` (`username`,`ip`,`isadmin`,`logintime`,`times`) VALUES ('admin','0.0.0.0','1','1465105799','1') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-06-05T13:50:01+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-06-05T13:50:04+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `db_admin_times` SET `ip`='0.0.0.0',`isadmin`='1',`times`=times+1 WHERE `username` = 'admin' [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-06-05T13:50:07+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-05T13:50:10+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `db_admin_times` SET `ip`='0.0.0.0',`isadmin`='1',`times`=times+1 WHERE `username` = 'admin' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-06-05T13:50:11+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-05T13:50:56+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `db_admin_times` SET `ip`='0.0.0.0',`isadmin`='1',`times`=times+1 WHERE `username` = 'admin' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-06-05T13:50:57+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-06-05T13:51:00+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `db_admin_times` SET `ip`='0.0.0.0',`isadmin`='1',`times`=times+1 WHERE `username` = 'admin' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-06-05T13:51:02+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-06-05T13:51:11+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `db_admin_times` SET `ip`='0.0.0.0',`isadmin`='1',`times`=times+1 WHERE `username` = 'admin' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-06-05T13:51:12+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-06-05T13:51:27+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ip D:\www\lecture\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+SQL: UPDATE `db_administrator` SET `last_login_ip`='0.0.0.0',`last_login_time`='1465105887' WHERE ( userid=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\lecture\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: schoolid D:\www\lecture\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+
+[ 2016-06-05T13:51:28+08:00 ] ::1 /lecture/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' D:\www\lecture\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-06-05T13:51:28+08:00 ] ::1 /lecture/admin.php/AdminCP/welcome?_=1465105888799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-06-05T13:52:09+08:00 ] ::1 /lecture/admin.php/Basis/Index?_=1465105929400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `db_slides` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: map D:\www\lecture\Application\Admin\Controller\BasisController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_slides` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map D:\www\lecture\Application\Admin\Controller\BasisController.class.php 第 23 行.
+SQL: SELECT * FROM `db_slides` ORDER BY id desc LIMIT 0,30   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: keyword D:\www\lecture\Application\Runtime\Cache\Admin\ec481d96eb47388ca5abd7a6d487cab6.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-06-05T13:52:11+08:00 ] ::1 /lecture/admin.php/System/adminNodeLists?_=1465105931448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined index: allow D:\www\lecture\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-06-05T13:52:14+08:00 ] ::1 /lecture/admin.php/System/adminManage?_=1465105934541
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Undefined index: allow D:\www\lecture\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: map D:\www\lecture\Application\Admin\Controller\SystemController.class.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_administrator` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map D:\www\lecture\Application\Admin\Controller\SystemController.class.php 第 73 行.
+SQL: SELECT * FROM `db_administrator` ORDER BY userid LIMIT 0,30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `db_admin_role` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `db_admin_role`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Admin\Model\AdminRoleModel.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Admin\Model\AdminRoleModel.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Admin\Model\AdminRoleModel.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: username D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 8 行.
+NOTIC: [8] Undefined variable: roleid D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+NOTIC: [8] Undefined variable: roleid D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+NOTIC: [8] Undefined variable: roleid D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\8f5cdb2ccccb01c5083817d6bb582309.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-06-05T13:52:15+08:00 ] ::1 /lecture/admin.php/System/adminRoleList?_=1465105935143
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined index: allow D:\www\lecture\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_role` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: name D:\www\lecture\Application\Admin\Controller\SystemController.class.php 第 177 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_admin_role` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `db_admin_role` LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 16 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 17 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 18 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 19 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Undefined variable: pc_hash D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 22 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 16 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 17 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 18 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 19 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Undefined variable: pc_hash D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 22 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 26 行.
+NOTIC: [8] Undefined variable: pc_hash D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 26 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 16 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 17 行.
+NOTIC: [8] Use of undefined constant rolename - assumed 'rolename' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 18 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 19 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Undefined variable: pc_hash D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 21 行.
+NOTIC: [8] Use of undefined constant disabled - assumed 'disabled' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 22 行.
+NOTIC: [8] Use of undefined constant roleid - assumed 'roleid' D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 26 行.
+NOTIC: [8] Undefined variable: pc_hash D:\www\lecture\Application\Runtime\Cache\Admin\d5a02a8743bc1925776ed0f80d74c2c2.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-06-05T15:56:44+08:00 ] ::1 /lecture/admin.php/Publics/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-06-05T15:56:46+08:00 ] ::1 /lecture/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+

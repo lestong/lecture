@@ -1,0 +1,8 @@
+<foreach name="alert" item="v"  key="k">
+    <foreach name="v" item="vv"  key="kk">
+		<div class="alert alert-{$k}">
+			<button type="button" class="close" data-close="alert">&times;</button>
+            <span> {$vv}</span>
+		</div>
+	</foreach>	
+</foreach>
