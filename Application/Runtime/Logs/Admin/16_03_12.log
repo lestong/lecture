@@ -1,0 +1,1661 @@
+[ 2016-03-12T00:10:53+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:10:55+08:00 ] ::1 /infoshow/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: detail E:\wwwroot\infoshow\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T00:11:02+08:00 ] ::1 /infoshow/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\infoshow\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+SQL: UPDATE `db_administrator` SET `last_login_ip`='0.0.0.0',`last_login_time`='1457712662' WHERE ( userid=1 ) [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\infoshow\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+
+[ 2016-03-12T00:11:02+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:11:03+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457712663770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:11:22+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712682739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T00:11:25+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd?_=1457712685516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 33 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 48 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-03-12T00:12:17+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1457712737034
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:12:21+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1457712741626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:12:26+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd?_=1457712746642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 33 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 48 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T00:12:41+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd?_=1457712746642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('0','内容管理','Contents','','0','1','') [ RunTime:0.0000s ]
+
+[ 2016-03-12T00:12:41+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712761795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-12T00:12:43+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1457712763707
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:12:47+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/2/pc_hash/?_=1457712767739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-12T00:12:51+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/20%20?_=1457712771634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT `c`,`display`,`icon` FROM `db_admin_menu` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined index: a E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:13:08+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/20%20?_=1457712771634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('20','内容管理','Contents','','0','1','') [ RunTime:0.0010s ]
+
+[ 2016-03-12T00:13:09+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712789113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:13:11+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/21%20?_=1457712791018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT `c`,`display`,`icon` FROM `db_admin_menu` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined index: a E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-12T00:13:32+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/21%20?_=1457712791018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('21','首页','Contents','','0','1','') [ RunTime:0.0000s ]
+
+[ 2016-03-12T00:13:32+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712812516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:13:40+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:13:41+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457712821418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T00:13:46+08:00 ] ::1 /infoshow/admin.php/AdminCP/Contents?_=1457712826590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Contents
+
+[ 2016-03-12T00:13:55+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712835789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:00+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1457712840453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:05+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1457712840453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='0',`name`='系统设置',`c`='System',`a`='',`listorder`='10',`display`='1' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2016-03-12T00:14:05+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712845814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:12+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/22/pc_hash/?_=1457712852189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-12T00:14:15+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/22/pc_hash/?_=1457712852189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='21',`name`='首页',`c`='Contents',`a`='index',`listorder`='0',`display`='1' WHERE ( id=22 ) [ RunTime:0.0010s ]
+
+[ 2016-03-12T00:14:15+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712855536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:21+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/21%20?_=1457712861415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT `c`,`display`,`icon` FROM `db_admin_menu` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined index: a E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-12T00:14:34+08:00 ] ::1 /infoshow/admin.php/System/adminNodeAdd/parentid/21%20?_=1457712861415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('21','关于','Contents','about','0','1','') [ RunTime:0.0000s ]
+
+[ 2016-03-12T00:14:34+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457712874709
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:38+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:39+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457712879130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:14:40+08:00 ] ::1 /infoshow/admin.php/Contents/index?_=1457712880844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Contents
+
+[ 2016-03-12T00:19:21+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:19:22+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457713162394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:19:24+08:00 ] ::1 /infoshow/admin.php/Contents/index?_=1457713164892
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Contents
+
+[ 2016-03-12T00:19:47+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457713187784
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:19:51+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/22/pc_hash/?_=1457713191562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:19:57+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/22/pc_hash/?_=1457713191562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='21',`name`='首页',`c`='Content',`a`='index',`listorder`='0',`display`='1' WHERE ( id=22 ) [ RunTime:0.0020s ]
+
+[ 2016-03-12T00:19:57+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457713197152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-12T00:20:00+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/21/pc_hash/?_=1457713200887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:07+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/21/pc_hash/?_=1457713200887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='20',`name`='内容管理',`c`='Content',`a`='',`listorder`='0',`display`='1' WHERE ( id=21 ) [ RunTime:0.0020s ]
+
+[ 2016-03-12T00:20:07+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457713207152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:10+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/21/pc_hash/?_=1457713209943
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:14+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/23/pc_hash/?_=1457713214364
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-12T00:20:19+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/23/pc_hash/?_=1457713214364
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='21',`name`='关于',`c`='Content',`a`='about',`listorder`='0',`display`='1' WHERE ( id=23 ) [ RunTime:0.0000s ]
+
+[ 2016-03-12T00:20:19+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457713219485
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:22+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:23+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457713223320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:20:24+08:00 ] ::1 /infoshow/admin.php/Content/index?_=1457713224931
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T00:21:01+08:00 ] ::1 /infoshow/admin.php/Content/index?_=1457713261183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:03:00+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:03:01+08:00 ] ::1 /infoshow/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: detail E:\wwwroot\infoshow\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:03:09+08:00 ] ::1 /infoshow/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\infoshow\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+SQL: UPDATE `db_administrator` SET `last_login_ip`='0.0.0.0',`last_login_time`='1457791389' WHERE ( userid=1 ) [ RunTime:0.0020s ]
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\infoshow\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+
+[ 2016-03-12T22:03:09+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:03:10+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457791389990
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:03:13+08:00 ] ::1 /infoshow/admin.php/Content/index?_=1457791393609
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:07:26+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:07:27+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457791647516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:17+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457792297639
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:31+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/20/pc_hash/?_=1457792311398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:34+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/20/pc_hash/?_=1457792311398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='0',`name`='内容管理',`c`='Contents',`a`='',`listorder`='0',`display`='0' WHERE ( id=20 ) [ RunTime:0.0000s ]
+
+[ 2016-03-12T22:18:34+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457792314846
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:41+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:41+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457792321398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T22:18:46+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457792326109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:49+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/20/pc_hash/?_=1457792329650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:53+08:00 ] ::1 /infoshow/admin.php/System/adminNodeEdit/id/20/pc_hash/?_=1457792329650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\infoshow\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='0',`name`='内容管理',`c`='Contents',`a`='',`listorder`='0',`display`='1' WHERE ( id=20 ) [ RunTime:0.0000s ]
+
+[ 2016-03-12T22:18:53+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457792333270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:57+08:00 ] ::1 /infoshow/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\infoshow\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-12T22:18:57+08:00 ] ::1 /infoshow/admin.php/AdminCP/welcome?_=1457792337232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T22:19:41+08:00 ] ::1 /infoshow/admin.php/System/adminNodeLists?_=1457792381527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\infoshow\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

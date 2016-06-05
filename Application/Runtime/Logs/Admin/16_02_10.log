@@ -1,0 +1,1854 @@
+[ 2016-02-10T10:55:56+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T10:55:57+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: detail E:\wwwroot\res\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T10:56:04+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_res.db_admin_times' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_admin_times`
+ERR: 1146:Table 'db_res.db_admin_times' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_admin_times`
+
+[ 2016-02-10T17:31:01+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:31:08+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T17:31:11+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:31:30+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T17:31:33+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:32:10+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:32:13+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:32:42+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:32:54+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T17:32:57+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:33:23+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:33:26+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:36:36+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T17:36:42+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0030s ]
+SQL: INSERT INTO `db_admin_times` (`username`,`ip`,`isadmin`,`logintime`,`times`) VALUES ('admin','0.0.0.0','1','1455097002','1') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T17:36:45+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:38:20+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:38:25+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+NOTIC: [8] Undefined index: class E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 67 行.
+NOTIC: [8] Undefined index: nickname E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 75 行.
+
+[ 2016-02-10T17:38:25+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_res.db_admin_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_admin_menu`
+ERR: 1146:Table 'db_res.db_admin_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_admin_menu`
+
+[ 2016-02-10T17:55:28+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:55:28+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455098128763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:55:33+08:00 ] ::1 /admin.php/Publics/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T17:55:35+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:55:42+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+NOTIC: [8] Undefined index: class E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 67 行.
+NOTIC: [8] Undefined index: nickname E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 75 行.
+
+[ 2016-02-10T17:55:42+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T17:55:42+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455098142804
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:29:43+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T22:29:44+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455114584004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T22:32:47+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:32:47+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455114767660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:42:48+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:42:48+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455115368890
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:42:59+08:00 ] ::1 /admin.php/AdminCP/System?_=1455115379954
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:System
+
+[ 2016-02-10T22:43:43+08:00 ] ::1 /admin.php/AdminCP/System?_=1455115423488
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:System
+
+[ 2016-02-10T22:47:42+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:47:42+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455115662307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:47:44+08:00 ] ::1 /admin.php/AdminCP/System?_=1455115664141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:System
+
+[ 2016-02-10T22:49:51+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:49:51+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455115791643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-10T22:49:53+08:00 ] ::1 /admin.php/AdminCP/System?_=1455115793644
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:System
+
+[ 2016-02-10T22:51:29+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:51:29+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455115889871
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:51:35+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455115895408
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T22:54:14+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:54:15+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116055140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:54:18+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116058893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-10T22:55:44+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:55:44+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116144647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:55:46+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116146556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:56:44+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:56:44+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116204896
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:56:46+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116206582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:57:22+08:00 ] ::1 /admin.php/System/adminNodeAdd?_=1455116242398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 33 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 48 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:57:40+08:00 ] ::1 /admin.php/System/adminNodeAdd?_=1455116242398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('0','A','System','','0','1','') [ RunTime:0.0010s ]
+
+[ 2016-02-10T22:57:40+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116260158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:57:46+08:00 ] ::1 /admin.php/System/adminNodeDelete/id/9/pc_hash/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: DELETE FROM `db_admin_menu` WHERE ( id=9 ) [ RunTime:0.0010s ]
+
+[ 2016-02-10T22:57:46+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116266451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:57:47+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116266456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T22:58:53+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:58:53+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116333871
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:59:00+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:59:00+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116340795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:59:42+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:59:42+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116382733
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T22:59:44+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116384724
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:00:04+08:00 ] ::1 /admin.php/System/adminNodeAdd?_=1455116403940
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 27 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 33 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 39 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 48 行.
+NOTIC: [8] Undefined variable: Detail E:\wwwroot\res\Application\Runtime\Cache\Admin\accdbdd9176b30030dc27fb7e01e2b51.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:00:19+08:00 ] ::1 /admin.php/System/adminNodeAdd?_=1455116403940
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `db_admin_menu` (`parentid`,`name`,`c`,`a`,`listorder`,`display`,`icon`) VALUES ('0','test','S','','0','1','') [ RunTime:0.0000s ]
+
+[ 2016-02-10T23:00:20+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116420076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:00:26+08:00 ] ::1 /admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1455116426893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_admin_menu`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:00:32+08:00 ] ::1 /admin.php/System/adminNodeEdit/id/1/pc_hash/?_=1455116426893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `db_admin_menu` SET `parentid`='0',`name`='系统设置',`c`='System',`a`='',`listorder`='0',`display`='1' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-02-10T23:00:32+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116432389
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T23:06:55+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:06:56+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116816082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T23:08:58+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:08:58+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116938237
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T23:09:18+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:09:19+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455116958983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:09:25+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455116965241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T23:09:50+08:00 ] ::1 /admin.php/System/profile?_=1455116990597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `db_admin` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname E:\wwwroot\res\Application\Runtime\Cache\Admin\bedafb6664ac79d9bc798de8066e12cd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:09:56+08:00 ] ::1 /admin.php/System/profile?_=1455116990597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0060s ]
+
+[ 2016-02-10T23:10:01+08:00 ] ::1 /admin.php/System/profile?_=1455117001194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_admin` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname E:\wwwroot\res\Application\Runtime\Cache\Admin\bedafb6664ac79d9bc798de8066e12cd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:10:07+08:00 ] ::1 /admin.php/Publics/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-10T23:10:10+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T23:10:20+08:00 ] ::1 /admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+NOTIC: [8] Undefined index: class E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 67 行.
+NOTIC: [8] Undefined index: nickname E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 75 行.
+
+[ 2016-02-10T23:10:20+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Undefined index: _child E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-10T23:10:20+08:00 ] ::1 /admin.php/AdminCP/welcome?_=1455117020563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-10T23:10:24+08:00 ] ::1 /admin.php/System/adminNodeLists?_=1455117024517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `db_admin_menu` ORDER BY listorder ASC,id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

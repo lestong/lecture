@@ -1,0 +1,83 @@
+<div class="bjui-pageHeader">
+    <form id="pagerForm" data-toggle="ajaxsearch" action="__SELF__" method="post">
+        <input type="hidden" name="pageSize" value="${model.pageSize}">
+        <input type="hidden" name="pageCurrent" value="${model.pageCurrent}">
+        <input type="hidden" name="orderField" value="${param.orderField}">
+        <input type="hidden" name="orderDirection" value="${param.orderDirection}">
+        <div class="bjui-searchBar">
+            <label>{:L('username')}：</label><input type="text" id="username" value="{$username}" name="username" class="form-control" size="10">&nbsp;
+            <label>{:L('role')}:</label>
+            <select name="roleid" data-toggle="selectpicker">
+                <option value="">{:L('select_all_role')}</option>
+                <foreach name="roles" key="key" item="role">
+                <option value="{$key}" <eq name="roleid" value="$key">selected</eq> >{$role[rolename]}</option> 
+                </foreach>
+            </select>&nbsp;
+            <button type="submit" class="btn-default" data-icon="search">{:L('btn_search')}</button>&nbsp;
+            <a class="btn btn-orange" href="javascript:;" data-toggle="reloadsearch" data-clear-query="true" data-icon="undo">{:L('btn_reload_search')}</a>
+            <div class="pull-right">
+                <button type="button" class="btn-green" data-url="{:U('System/adminAdd')}/" data-toggle="dialog" mask="true" data-width="520" data-height="188" data-icon="plus">添加管理员</button>&nbsp;
+                <div class="btn-group">
+                    <button type="button" class="btn-default dropdown-toggle" data-toggle="dropdown" data-icon="copy">{:L('operation_batch')}<span class="caret"></span></button>
+                    <ul class="dropdown-menu right" role="menu">
+                        <li><a href="{:U('System/adminDelete')}" data-toggle="doajaxchecked" data-confirm-msg="{:L('msg_confirm_delete')}" data-idname="ids" data-group="ids">{:L('del_checked')}</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</div>
+<div class="bjui-pageContent tableContent">
+    <table data-toggle="tablefixed" data-width="100%" data-nowrap="true">
+        <thead>
+            <tr>
+                <th width="26"><input type="checkbox" class="checkboxCtrl" data-group="ids" data-toggle="icheck"></th>
+                <th width="50">ID</th>
+                <th width="120">{:L('username')}</th>
+                <th width="120">{:L('role')}</th>
+                <th>{:L('name')}</th>
+                <th width="120" align="center">最后登录IP</th>
+                <th width="120" align="center">最后登录时间</th>
+                <th width="150" align="center">{:L('manage')}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <foreach name="page_list" item="item" >
+            <tr data-id="{$item.userid}">
+                <td><input type="checkbox" name="ids" data-toggle="icheck" value="{$item.userid}"></td>
+                <td>{$item.userid}</td>
+                <td>{$item.username}</td>
+                <td>{$roles[$item['roleid']]['rolename']}</td>
+                <td>{$item.nickname}</td>
+                <td align="center">{$item.last_login_ip}</td>
+                <td align="center"><notempty name="item.last_login_time">{$item.last_login_time|date="Y-m-d",###}</notempty></td>
+                <td align="center">
+                    <a class="btn btn-green" href="{:U('System/adminEdit?userid='.$item['userid'])}" data-toggle="dialog" mask="true" data-width="520" data-height="188"><span>{:L('edit')}</span></a> | 
+                    <gt name="item.userid" value="1">
+                        <a class="btn btn-green" title="密码将重置为1q2w3e4" href="{:U('System/adminResetPassword?userid='.$item['userid'])}" data-toggle="doajax" data-confirm-msg="确定要重置密码吗？">重置密码</a> | <a class="btn btn-green" href="{:U('System/adminDelete?ids='.$item['userid'])}" data-toggle="doajax" data-confirm-msg="{:L('msg_confirm_delete')}">{:L('delete')}</a>
+                    <else />
+                        <button class="btn btn-default">重置密码</button> | <button class="btn btn-default">{:L('delete')}</button>
+                    </gt>
+                </td>
+            </tr>
+            </foreach>
+            
+        </tbody>
+    </table>
+</div>
+<div class="bjui-pageFooter">
+    <div class="pages">
+        <span>{:L('pagination_per_page')}&nbsp;</span>
+        <div class="selectPagesize">
+            <select data-toggle="selectpicker" data-toggle-change="changepagesize">
+                <option value="30" <eq name="page.pageSize" value="30">selected</eq>>30</option>
+                <option value="60" <eq name="page.pageSize" value="30">selected</eq>>60</option>
+                <option value="120" <eq name="page.pageSize" value="30">selected</eq>>120</option>
+                <option value="150" <eq name="page.pageSize" value="30">selected</eq>>150</option>
+            </select>
+        </div>
+        <span>&nbsp;{:L('pagination_count_desc', array('totalCount' => $page['totalCount']))}</span>
+    </div>
+    <div class="pagination-box" data-toggle="pagination" data-total="{$page.totalCount}" data-page-size="{$page.pageSize}" data-page-current="{$page.pageCurrent}"></div>
+</div>

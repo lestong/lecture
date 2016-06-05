@@ -1,0 +1,156 @@
+[ 2016-02-23T21:29:04+08:00 ] ::1 /res/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-23T21:29:05+08:00 ] ::1 /res/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: detail E:\wwwroot\res\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-23T21:29:12+08:00 ] ::1 /res/admin.php/Publics/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_admin_times` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_administrator` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_administrator` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ip E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 59 行.
+SQL: UPDATE `db_administrator` SET `last_login_ip`='0.0.0.0',`last_login_time`='1456234152' WHERE ( userid=1 ) [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty E:\wwwroot\res\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `db_admin_times` WHERE `username` = 'admin' AND `isadmin` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: schoolid E:\wwwroot\res\Application\Admin\Controller\PublicsController.class.php 第 66 行.
+
+[ 2016-02-23T21:29:12+08:00 ] ::1 /res/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `db_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_admin_menu` WHERE `display` = 1 ORDER BY listorder,id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' E:\wwwroot\res\Application\Runtime\Cache\Admin\9e7e7bc08f271b3f112d226dd2427b7e.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-23T21:29:14+08:00 ] ::1 /res/admin.php/AdminCP/welcome?_=1456234154414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-23T21:29:21+08:00 ] ::1 /res/admin.php/training/application?_=1456234161279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: allow E:\wwwroot\res\Application\Admin\Behaviors\AuthenticateBehavior.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `db_training_application` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: map E:\wwwroot\res\Application\Admin\Controller\TrainingController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_training_application` LIMIT 1   [ RunTime:0.0020s ]
+SQL: select ta.id,ta.applicant,au.applicant_unit,ta.organizer,ta.createtime from db_training_application ta join db_applicant_unit au on ta.applicant_unit_id=au.id [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: searchtype E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 10 行.
+NOTIC: [8] Undefined variable: searchtype E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 11 行.
+NOTIC: [8] Undefined variable: keyword E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wwwroot\res\Application\Runtime\Cache\Admin\59d927afee57a7f6a3cbc3c842e3184e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
