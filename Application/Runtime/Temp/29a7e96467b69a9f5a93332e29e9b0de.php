@@ -1,3 +1,0 @@
-<?php
-//000000003600a:3:{i:1;a:5:{s:6:"roleid";s:1:"1";s:8:"rolename";s:15:"超级管理员";s:3:"pid";s:1:"0";s:8:"disabled";s:1:"1";s:11:"description";s:0:"";}i:2;a:5:{s:6:"roleid";s:1:"2";s:8:"rolename";s:15:"学校管理员";s:3:"pid";s:1:"0";s:8:"disabled";s:1:"1";s:11:"description";s:9:"可执行";}i:3;a:5:{s:6:"roleid";s:1:"3";s:8:"rolename";s:6:"考官";s:3:"pid";s:1:"0";s:8:"disabled";s:1:"1";s:11:"description";s:1:"1";}}
-?>
